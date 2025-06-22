@@ -35,12 +35,12 @@
   }
 
   .team-summary-large {
-    background-color: $white-offset;
+    background-color: #dda7a7;
     padding: 30px;
     border-radius: 3px;
     .team-image {
-      height: 90px;
-      width: 90px;
+      height: 80px;
+      width: 80px;
       margin-right: 20px;
       border-radius: 50%;
       overflow: hidden;
@@ -49,4 +49,10 @@
       }
     }
   }
+
+  .team-social-icons img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 }

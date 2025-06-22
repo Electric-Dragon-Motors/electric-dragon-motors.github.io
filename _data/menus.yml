@@ -1,17 +1,52 @@
 main:
-  - name: "Services"
-    url: "/services/"
+
+  - name: "Productos"
+    url: "/products/"
     weight: 2
-  - name: "Team"
+    children:
+      - name: "UQi GT"
+        url: "/products/uqi-gt/"
+      - name: "NQi GTS"
+        url: "/products/nqi-gts/"
+      - name: "MQi GT100"
+        url: "/products/mqi-gt100g/"
+
+  - name: "Conócenos"
     url: "/team/"
     weight: 3
-  - name: "About"
-    url: "/about/"
+    children:
+      - name: "Integrantes"
+        url: "/team"
+      - name: "Gestión de proyecto"
+        url: "/about/sub1/"
+      - name: "Trabajo colaborativo"
+        url: "/about/sub2/"
+
+  - name: "Modulos"
+    url: "/modules/"
     weight: 4
+    children:
+      - name: "Gestión de Producción"
+        url: "/modules/gestion-produccion/"
+      - name: "Planeación del proyecto"
+        url: "/modules/proyect-planning/"
+      - name: "Evaluación ecónomica"
+        url: "/modules/economic-evaluation/"
+      - name: "Celda de manufactura robotizada"
+        url: "/modules/manufacturing-cell/"
+      - name: "Industria 4.0"
+        url: "/modules/industry-40"
+      - name: "Digital Factory"
+        url: "/modules/digital-factory/"
+      - name: "Controladores industriales"
+        url: "/modules/industrial-control/"
+      - name: "SCADA"
+        url: "/modules/scada/"
+
   - name: "Contact"
     url: "/contact/"
     weight: 5
-
+    
 footer:
   - name: "Home"
     url: "/"

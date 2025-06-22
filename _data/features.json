@@ -1,27 +1,30 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "UQi GT",
+    "slogan":"Ágil, eléctrica y lista para la ciudad.",
+    "description": " Redefine tu forma de moverte con estilo. La UQi GT combina diseño minimalista, tecnología inteligente y cero emisiones para que disfrutes cada trayecto urbano con libertad y eficiencia.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/features/uqi-gt.jpg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "NQi GTs",
+    "description": "Diseñada para quienes buscan potencia y autonomía en la ciudad y más allá. La NQi GTS ofrece velocidad, conectividad inteligente y un estilo moderno con cero emisiones.",
+    "slogan":"Rendimiento eléctrico para ir más lejos.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/features/nqi-gts.jpeg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "MQi GT100",
+    "description": "Con un diseño robusto y ergonómico, la MQi GT100 está hecha para moverse con seguridad. Equipada con baterías de alto rendimiento, tecnología smart y doble asiento, es ideal para compartir el camino.",
+    "slogan":"Comodidad y control en cada recorrido.",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/mqi-gt100.jpg",
       "width": 80,
       "height": 80
     }

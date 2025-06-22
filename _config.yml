@@ -1,12 +1,13 @@
+url: 'jojimenezt.github.io'
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Electric Dragon Motors'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/Electric Dragon Motors isotipo.png"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  desktop: "images/logo/Electric Dragon Motors logotipo.png"
   desktop_height: "32px"
   desktop_width: "120px"
 
@@ -14,6 +15,12 @@ home:
   limit_services: 6
 
 collections:
+  products:
+    output: true
+    sort_by: weight
+  modules:
+    output: true
+    sort_by: weight
   services:
     output: true
     sort_by: weight
@@ -26,6 +33,16 @@ defaults:
       type: "services"
     values:
       layout: "service"
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+  - scope:
+      path: ""
+      type: "modules"
+    values:
+      layout: "module"
   - scope:
       path: ""
       type: "team"

@@ -1,2 +1,51 @@
 .page-home {
 }
+
+.divinfo {
+  display: flex;
+  width: 80%; /* Ajustable */
+  max-width: 1000px;
+  height: 60vh; /* Ajustable */
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.info, .image {
+  width: 50%;
+  padding: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h2 {
+  margin-bottom: 10px;
+}
+
+.image img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.container col-12 col-md-6 col-lg-4 mb-2{
+  background-color: #b89e9e;
+    padding: 30px;
+    border-radius: 3px;
+    .team-image {
+      height: 80px;
+      width: 80px;
+      margin-right: 20px;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        width: 90px;
+      }
+    }
+}

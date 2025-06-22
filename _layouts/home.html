@@ -24,24 +24,16 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+      <h2> ¿En qué nos especializamos? </h2>
+        <div class="divinfo">
+          <div class="info">
+            <p>En Electric Dragon Motors nos especializamos en el diseño y desarrollo de líneas de ensamblaje automatizadas para vehículos eléctricos de dos ruedas. Nuestro enfoque combina robótica, manufactura inteligente y tecnología de vanguardia para optimizar cada etapa del proceso productivo, garantizando precisión, calidad y respeto por el medio ambiente.</p>
+            <p>Nuestro objetivo es impulsar la transición hacia una movilidad más limpia y eficiente, demostrando cómo la ingeniería moderna puede transformar no solo productos, sino también industrias enteras. Descubre cómo Electric Dragon Motors está liderando la automatización en el mundo de los vehículos eléctricos livianos, con pasión, tecnología y visión de futuro.</p>
+          </div>
+          <div class="image">
+            <img src="https://via.placeholder.com/300" alt="Imagen de ejemplo">
           </div>
         </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
     </div>
   </div>
 </div>
@@ -49,10 +41,11 @@ bodyClass: "page-home"
 {% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h1>¿Cuáles son nuestros productos?</h1>
     <div class="row justify-content-center">
 
       {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="col-12 col-md-6 col-lg-4 mb-2 feature">
         <div class="feature">
           {% if feature.image %}
           <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
@@ -67,3 +60,35 @@ bodyClass: "page-home"
   </div>
 </div>
 {% endif %}
+
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+
+    <h1 class="mb-4">Descubre los módulos utilizados en el proyecto</h1>
+
+    <div class="row">
+      {% assign limit = site.home.limit_services | default: 4 %}
+      {% for module in site.modules limit: 4 %}
+      <div class="col-12 col-md-6 mb-4">
+        <div class="service service-summary h-100">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="{{ module.url | relative_url }}">{{ module.title }}</a>
+            </h2>
+            <p>{{ module.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "modules" | relative_url }}">Ver todos los módulos</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+

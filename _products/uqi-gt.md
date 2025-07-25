@@ -13,24 +13,25 @@ Owner's equity, sometimes referred to as net assets, is represented differently 
 
 ## Conteo de partes por subgrupo (sin tornillos)
 
-| Subgrupo | Piezas (no tornillos/perno) |
-|----------|-----------------------------|
-| 0        | 4                           |
-| 1        | 11                          |
-| 2        | 10                          |
-| 3        | 8                           |
-| 4        | 6                           |
-| 5        | 5                           |
-| 6        | 5                           |
-| 7        | 7                           |
-| 8        | 6                           |
-| 9        | 5                           |
-| 10       | 4                           |
-| 11       | 3                           |
-| 12       | 6                           |
-| 13       | 7                           |
-| 14       | 14                          |
-| **TOTAL**| **101**                     |
+| Subgrupo                                       | Piezas (no tornillos/perno) |
+|------------------------------------------------|------------------------------|
+| 0 - Rueda Trasera                              | 4                            |
+| 1 - Manubrio                                   | 11                           |
+| 2 - Cuerpo delantero                           | 10                           |
+| 3 - Horquilla delantera                        | 8                            |
+| 4 - Llanta delantera                           | 6                            |
+| 5 - Componentes eléctricos                     | 5                            |
+| 6 - Cuerpo delantero                           | 5                            |
+| 7 - Cuerpo medio                               | 7                            |
+| 8 - Cubierta central trasera                   | 6                            |
+| 9 - Asiento y batería                          | 5                            |
+|10 - Soporte lateral                            | 4                            |
+|11 - Componentes traseros                       | 3                            |
+|12 - Cuerpo trasero                             | 6                            |
+|13 - Amortiguadores                             | 7                            |
+|14 - Sistema de frenado combinado               | 14                           |
+| **TOTAL**                                      | **101**                      |
 
-## Subgrupos
+
+
 

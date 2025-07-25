@@ -9,7 +9,7 @@ main:
       - name: "NQi GTS"
         url: "/products/nqi-gts/"
       - name: "MQi GT100"
-        url: "/products/mqi-gt100g/"
+        url: "/products/mqi-gt100/"
 
   - name: "Conócenos"
     url: "/team/"

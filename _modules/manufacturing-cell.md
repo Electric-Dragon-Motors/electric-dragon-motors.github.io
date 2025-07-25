@@ -37,23 +37,129 @@ También se incluyó la instalación de una cinta transportadora especializada p
 ![](TextoImagenes/OtraMaq.png)
 
 
-# Etapa Seleccionada N°.2: Pintura en Aereosol (Celda Robótica)
- En este caso, se eligió utilizar pintura con aerosol dentro de una celda automatizada debido a sus múltiples ventajas tanto operativas como económicas. Esta decisión no solo responde a criterios técnicos de calidad y eficiencia, sino también a razones logísticas, fiscales y comerciales. A continuación se detallan los principales motivos que justifican esta elección.
- 
-- Flexibilidad productiva y reducción de inventario: Es posible personalizar el color y acabados en línea, lo que facilita la personalización de series limitadas. Además si se importan pinturas, cada color requiere inventario separado, localmente puedes pintar bajo demanda.
-- Reducción de costos logísticos y riesgo de daño: evita costos de embalaje para proteger acabados deicados, con menor desperidico por año en transporte.
-- control de calidad en sitio: La inspección y retrabajo serán inmediatos frente a cualquier defecto y se tendra un contor mejor del espesor, la adherencia y resistencia, teniendo en cuenta las condiciones locales, mejoarndo tambien de la trazabiidad del proceso.
-- Benefisios arancelarios y fiscales: Está la posicilidad de apgar mayores aranceles por productos como la pintura, además las zonas francas o acurdos de manufactura nacional exigen que parte del proceso ocurra localmente.
+# Etapa Seleccionada N.° 2: Pintura en Aerosol (Celda Robótica)
 
-Tambien se hizo un análisis para justificar la robotización y el valor agregado: 
+En este caso, se eligió utilizar pintura con aerosol dentro de una celda automatizada debido a sus múltiples ventajas tanto operativas como económicas. Esta decisión no solo responde a criterios técnicos de calidad y eficiencia, sino también a razones logísticas, fiscales y comerciales. A continuación, se detallan los principales motivos que justifican esta elección:
+
+## Justificación de la etapa: Pintura en Aerosol en Celda Robótica
+
+La selección de esta etapa responde tanto a razones técnicas como estratégicas. La automatización del proceso de pintura mediante aerosol en una celda robótica ofrece ventajas clave que impactan en la calidad del producto, la eficiencia operativa y la competitividad de la empresa.
+
+### Ventajas operativas y productivas
+
+- **Calidad y precisión**: La precisión del robot permite pintar zonas muy específicas con excelentes acabados superficiales.
+- **Accesibilidad**: El sistema robótico permite acceder a zonas difíciles que serían complicadas o riesgosas para un operario humano.
+- **Alta productividad**: Se reduce el tiempo de ciclo de producción, aumentando la capacidad de respuesta frente a la demanda.
+- **Control de proceso**: Se permite el monitoreo y control de parámetros críticos como presión, abanico y atomización, lo cual garantiza uniformidad y repetibilidad.
+- **Versatilidad**: Los parámetros de pintura son totalmente programables para cada punto o geometría a pintar.
+- **Cambio rápido**: El cambio de referencia del producto a pintar es inmediato mediante recetas preprogramadas.
+- **Repetitividad**: Al automatizar el cambio de parámetros y puntos de pintura, se garantiza un proceso repetible y confiable.
+
+### Ventajas logísticas, fiscales y estratégicas
+
+- **Flexibilidad productiva y reducción de inventario**: Es posible personalizar el color y los acabados en línea, lo que permite atender pedidos específicos o series limitadas. Si se importan piezas ya pintadas, cada color requiere su propio inventario. Al pintar localmente, se elimina esta necesidad, favoreciendo la producción bajo demanda.
+
+- **Reducción de costos logísticos y riesgo de daño**: Se minimizan los costos de embalaje especial necesarios para proteger acabados delicados, y se reduce el desperdicio causado por rayones, humedad u otros daños durante el transporte.
+
+- **Control de calidad en sitio**: La inspección y el retrabajo ante defectos se realiza de inmediato. Además, se pueden ajustar parámetros como espesor, adherencia y resistencia de acuerdo con las condiciones ambientales locales, mejorando también la trazabilidad del proceso.
+
+- **Beneficios arancelarios y fiscales**: Productos con valor agregado, como las piezas ya pintadas, pueden estar sujetos a aranceles más altos al ser importados. Además, zonas francas o acuerdos de manufactura nacional suelen exigir que parte del proceso productivo se realice en el país, lo cual se cumple con la pintura automatizada localmente.
+
+## Justificación de la robotización y valor agregado
+
+También se realizó un análisis para justificar la implementación de la robotización en esta etapa del proceso:
+
+| Criterio                    | Argumento a favor de la robotización                                                       |
+|-----------------------------|--------------------------------------------------------------------------------------------|
+| Calidad del acabado         | Alta repetibilidad, precisión en el espesor de capa y cobertura uniforme.                  |
+| Seguridad                   | Elimina la exposición del operario a vapores tóxicos y disolventes.                        |
+| Productividad               | Incrementa la velocidad de aplicación y reduce el desperdicio de material.                 |
+| Trazabilidad y control      | Los parámetros de pintura son monitoreados y registrados automáticamente.                  |
+| Consistencia                | Disminución de defectos y retrabajos.                                                      |
+| Ahorro de material          | Uso eficiente de la pintura mediante pulverización controlada.                             |
+| Cumplimiento normativo      | Mejora las condiciones para cumplir con normativas ambientales y de salud ocupacional.     |
 
 
-# Seguridad en Celdas Robotizadas
+## Seguridad en sistemas robotizados
 
-Dado el carácter crítico de las operaciones seleccionadas, se plantea la definición de criterios de seguridad industrial para el diseño de las celdas.
+La seguridad en sistemas robotizados es un aspecto crítico que debe garantizarse desde el diseño hasta el mantenimiento del sistema. Para evitar riesgos, es fundamental que la instalación esté en condiciones óptimas antes de su activación, corrigiendo cualquier anomalía y reportando incidentes no solucionables de inmediato.
 
-Para garantizar un entorno de trabajo seguro, se tendrá en cuenta la identificación de los elementos peligrosos en el proceso, la evaluación de riesgos conforme a las normas ISO 12100 y 14121, y la determinación del nivel de seguridad requerido (PLr) según la norma ISO 13849-1. Esto permitirá establecer medidas adecuadas de mitigación y control.
+### Medidas físicas de protección
 
-El diseño de las celdas incorporara componentes de seguridad industrial como cortinas fotoeléctricas, enclavamientos, paros de emergencia y sensores redundantes, todos integrados a través de un sistema de control confiable y validado. Además, se definieran procedimientos operativos seguros para ingreso, mantenimiento y operación de las estaciones, asegurando que las personas y los equipos estén protegidos en todo momento.
-En conjunto, estas acciones permiten no solo cumplir con los estándares internacionales, sino también asegurar la continuidad del proceso productivo sin comprometer la seguridad.
+- Vallados de rejilla de 3 metros de altura evitan el ingreso accidental a zonas peligrosas.
+- Se dejan espacios libres de al menos 1 metro para tareas de programación, carga, descarga y mantenimiento.
+- Cerrojos de seguridad interrumpen el funcionamiento si están abiertos, asegurando condiciones seguras.
+
+### Acceso restringido y controlado
+
+- Solo personal autorizado y capacitado puede ingresar a la celda.
+- Las puertas deben permanecer cerradas durante el funcionamiento, ya que el robot puede ejercer fuerzas peligrosas incluso a baja velocidad.
+- Dispositivos de seguridad como puertas enclavadas, barreras fotoeléctricas y vallados no deben ser vulnerados ni retirados.
+- Los operadores deben conocer la ubicación de los botones de paro de emergencia y los controles de encendido/apagado.
+
+### Sistemas de seguridad integrados
+
+- Frenos electroimantados mantienen la posición del robot en caso de fallo eléctrico.
+- Sensores de par motor detectan bloqueos o movimientos anómalos y detienen el sistema automáticamente.
+- En modo manual, se limita la velocidad a 300 mm/s para reducir riesgos.
+- Sistemas como SafeMove y múltiples paradas de emergencia permiten detener la operación de forma inmediata ante cualquier situación de peligro.
+
+### Cumplimiento normativo
+
+- Cumplimiento con directivas europeas sobre:
+  - Seguridad de máquinas
+  - Compatibilidad electromagnética
+  - Requisitos eléctricos
+- Se emite una Declaración UE de Conformidad, firmada por el responsable del proyecto, que certifica el cumplimiento con normas como:
+  - EN ISO 10218-1
+  - EN ISO 10218-2
+  - UNE-EN 775
+
+### Evaluación continua de riesgos
+
+A pesar de las medidas implementadas, es indispensable:
+- Evaluar riesgos durante todas las fases: montaje, programación, mantenimiento y uso diario.
+- Adoptar medidas adicionales para reducir la probabilidad y gravedad de posibles accidentes.
+
+## Identificación de peligros y gestión del riesgo
+
+| Tipo de peligro       | Descripción                                                                 |
+|-----------------------|------------------------------------------------------------------------------|
+| Físico                | Aplastamiento por movimiento del robot, colisión con partes móviles          |
+| Químico               | Exposición a vapores de pintura, disolventes y partículas atomizadas         |
+| Incendio/explosión    | Presencia de sustancias inflamables y posibles atmósferas explosivas (ATEX)  |
+| Eléctrico             | Riesgos en sistemas de control y motores                                     |
+| Ergonómico            | Mala postura o acceso inseguro en tareas de mantenimiento                    |
+| Ambiental             | Mala ventilación o acumulación de vapores                                    |
+
+
+## Anpalisis de riesgo inicial (antes de aplicar medidas)
+
+| Riesgo                    | NP | FE | LO | DPH | HRN (NP × FE × LO × DPH)  | Nivel de riesgo |
+|---------------------------|----|----|----|-----|---------------------------|-----------------|
+| Aplastamiento por robot   | 1  | 5  | 2  | 3   | 30                        | Alto            |
+| Exposición a vapores      | 1  | 8  | 2  | 3   | 48                        | Muy alto        |
+| Incendio por vapores      | 1  | 3  | 3  | 4   | 36                        | Alto            |
+
+
+## Medidas propuestas para mitigación del riesgo
+
+| Riesgo                  | Medidas técnicas y organizacionales                                                                 |
+|-------------------------|-----------------------------------------------------------------------------------------------------|
+| Aplastamiento           | Cerramiento perimetral, sensores de presencia, parada de emergencia, PLC de seguridad               |
+| Vapores tóxicos         | Cabina con ventilación forzada, extracción localizada, uso de EPP (respiradores)                    |
+| Incendio o explosión    | Sensores de gases, equipos con protección contra ignición                                           |
+| Electricidad            | Puesta a tierra, protecciones diferenciales, mantenimiento regular                                  |
+| Mantenimiento           | Procedimientos LOTO, acceso por enclavamientos seguros, capacitación técnica                        |
+
+
+## Evaluación del riesgo residual
+
+| Riesgo                  | HRN residual | Nivel esperado |
+|-------------------------|--------------|----------------|
+| Aplastamiento por robot | 6            | Bajo           |
+| Exposición a vapores    | 8            | Bajo           |
+| Incendio por vapores    | 10           | Moderado       |
+
+
 

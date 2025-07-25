@@ -10,27 +10,27 @@ Cuenta con dos baterías extraíbles que se pueden cargar fácilmente en casa o 
 
 ## Conteo de partes por subgrupo (sin tornillos)
 
-| Subgrupo | # Partes |
-|----------|----------|
-| 0        | 6        |
-| 1        | 7        |
-| 2        | 6        |
-| 3        | 6        |
-| 4        | 7        |
-| 5        | 2        |
-| 6        | 9        |
-| 7        | 6        |
-| 8        | 9        |
-| 9        | 6        |
-| 10       | 13       |
-| 11       | 6        |
-| 12       | 2        |
-| 13       | 16       |
-| 14       | 2        |
-| 15       | 9        |
-| 16       | 11       |
-| 17       | 14       |
-| **TOTAL**| **137**  |
+| Subgrupo                                   | # Partes |
+|--------------------------------------------|----------|
+| 0 - Rueda trasera                          | 6        |
+| 1 - Pantalla de abrazadera de manillar     | 7        |
+| 2 - Manubrio izquierdo                     | 6        |
+| 3 - Manubrio derecha                       | 6        |
+| 4 - Cuerpo delantero                       | 7        |
+| 5 - Marco delantero                        | 2        |
+| 6 - Componente eléctrico                   | 9        |
+| 7 - Horquilla delantera                    | 6        |
+| 8 - Rueda delantera                        | 9        |
+| 9 - Almacenamiento frontal                 | 6        |
+|10 - Batería inferior                       | 13       |
+|11 - Soporte central                        | 6        |
+|12 - Componentes traseros                   | 2        |
+|13 - Cuerpo trasero                         | 16       |
+|14 - Reposapies                             | 2        |
+|15 - Cuerpo trasero                         | 9        |
+|16 - Amortiguadores                         | 11       |
+|17 - Sistema de frenado combinado           | 14       |
+| **TOTAL**                                  | **137**  |
 
 
 
